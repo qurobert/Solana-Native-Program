@@ -1,0 +1,10 @@
+[package]
+name = "Solana-Native-Program"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+solana_program = "1.18.18"
+
+[lib]
+path = "lib.rs"
